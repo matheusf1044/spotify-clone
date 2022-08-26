@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+header img {
+    max-width:200px;
+    max-height:50px;
+}
+
+a {
+    margin-left: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "kanit";
+    font-size: 16px;
+}
+
+.barra {
+    border-right: #fff solid 1px;
+    padding-right: 35px;
+}
+
+a:hover {
+    color: #1ed760;;
+}
+
+.primeira-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #993399;
+}
+
+.title {
+    color: #fff;
+    font-family: "kanit";
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 860px;
+}
+
+p {
+    font-size: 11px;
+}
+
+.primeira-section img {
+    width: 400px;
+    padding: 15px;
+}
+
+.btn {
+    align-items: center;
+}
+
+.black-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "kanit";
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    border-radius: 50px;
+}
+
+.pink-btn {
+    padding: 16px 35px;
+    border-radius: 50px;
+    border: #fff 2px solid;
+    background-color: transparent;
+    color: #fff;
+}
+
+.segunda-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.segunda-section h1 {
+    font-family: "kanit";
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.informacao {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.card {    
+    align-items: center;
+    text-align: center;
+    width: 285px;
+    height: 287px;
+}
+
+.card img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.menor {
+    width: 200px;
+    height: 200px;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-family: "kanit";
+    margin-top: 40px;
+}
+
+.card h3 {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "kanit";
+}
