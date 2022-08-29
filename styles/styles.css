@@ -15,6 +15,7 @@ header {
     padding: 15px;
 }
 
+
 header img {
     max-width:200px;
     max-height:50px;
@@ -35,6 +36,27 @@ header img {
 
 a:hover {
     color: #1ed760;;
+}
+
+.btn-header {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn-header:focus ~ a {
+    width: 250px;
+    height: 250px;
+}
+
+.btn-header:hover {
+    color: #1ed760;
 }
 
 .primeira-section {
@@ -218,7 +240,7 @@ a:hover {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    max-width: 270px;
+    width: 270px;
     padding: 15px;
     font-family: "kanit";
     min-height: 100px;
@@ -277,6 +299,15 @@ a:hover {
     font-size: 18px;
     font-family: "kanit";
     font-weight: 500;
+    cursor: pointer;
+    transition: transform 100ms cubic-bezier(0.02, -0.6, 1, 2.5);
+}
+
+.black-btn-card:hover {
+    transform: scale(1.04);
+    background-color: #000;
+    border: #151414 solid 2px;
+    text-transform: uppercase;
 }
 
 .informacao-card {
@@ -291,6 +322,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    padding-top: 45px;
 }
 
 .logo-footer {
@@ -335,4 +367,16 @@ footer {
 
 .fim {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.btn-fim {
+    text-decoration: none;
+    font-family: "kanit";
+    font-size: 16px;
+    color: #fff;
 }
